@@ -11,7 +11,7 @@ namespace TesteCodiumAI
 
         static int CalcularSoma(int a, int? b)
         {
-            return a + b.Value;
+            return a + (b ?? 0);
         }
 
         static void MetodoNaoUsado()
