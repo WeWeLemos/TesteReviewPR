@@ -6,7 +6,7 @@ namespace TesteCodiumAI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World")
+            Console.WriteLine("Hello World");
             CalcularSoma(5, null);
         }
 
